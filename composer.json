@@ -3,13 +3,13 @@
     "description": "a package for data faker & httpclient",
     "version": "1.0.0",
     "require": {
+        "fzaninotto/faker": "^1.8",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "config": {
         "secure-http": false
     },
     "minimum-stability": "dev",
     "require-dev": {
-        "fzaninotto/faker": "^1.8",
-        "guzzlehttp/guzzle": "^6.3"
     }
 }
