@@ -2,5 +2,5 @@
 a package for test use
 
 ```
-composer require  --update-with-all-dependencies cloedy/tests
+composer require  --update-with-all-dependencies cloedy/tests "dev-master"
 ```
