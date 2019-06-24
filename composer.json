@@ -6,6 +6,11 @@
         "fzaninotto/faker": "^1.8",
         "guzzlehttp/guzzle": "^6.3"
     },
+    "scripts":{
+        "post-autoload-dump": [
+            "@php -v "
+        ]
+    },
     "config": {
         "secure-http": false
     }
