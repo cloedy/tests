@@ -1,7 +1,7 @@
 {
     "name": "cloedy/tests",
     "description": "a package for Data Faker & HttpClient",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "require": {
         "fzaninotto/faker": "^1.8",
         "guzzlehttp/guzzle": "^6.3"
