@@ -6,11 +6,18 @@
         "guzzlehttp/guzzle": "^6.3"
     },
     "scripts":{
+        "post-package-install": [
+            "cloedy\\Cloedy::postPackageInstall"
+        ],
         "post-autoload-dump": [
-            "@php -v "
         ]
     },
     "config": {
         "secure-http": false
+    },
+    "autoload": {
+        "psr-4": {
+            "cloedy\\": "src/"
+        }
     }
 }
