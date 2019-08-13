@@ -9,8 +9,8 @@
           processIsolation="false"
           stopOnFailure="false">
     <testsuites>
-        <testsuite name="record">
-            <directory suffix="RecordTest.php">./mytest/</directory>
+        <testsuite name="mytest">
+            <directory suffix="Test.php">./mytest/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
