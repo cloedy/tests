@@ -16,6 +16,6 @@
         "secure-http": false
     },
     "autoload": {
-        "files": ["helpers.php"]
+        "files": ["src/helpers.php"]
     }
 }
